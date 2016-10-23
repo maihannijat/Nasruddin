@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_theme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.revittechnology.mullahnasruddin.ThemeActivity">
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_red"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/red"
+                android:text="@string/red" />
+
+            <Button
+                android:id="@+id/button_pink"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/pink"
+                android:text="@string/pink" />
+
+            <Button
+                android:id="@+id/button_purple"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/purple"
+                android:text="@string/purple" />
+
+            <Button
+                android:id="@+id/button_indigo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/indigo"
+                android:text="@string/indigo" />
+
+            <Button
+                android:id="@+id/button_blue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/blue"
+                android:text="@string/blue" />
+
+            <Button
+                android:id="@+id/button_cyan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/cyan"
+                android:text="@string/cyan" />
+
+            <Button
+                android:id="@+id/button_teal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/teal"
+                android:text="@string/teal" />
+
+            <Button
+                android:id="@+id/button_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/green"
+                android:text="@string/green" />
+
+            <Button
+                android:id="@+id/button_light_green"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/light_green"
+                android:text="@string/light_green" />
+
+            <Button
+                android:id="@+id/button_orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/orange"
+                android:text="@string/orange" />
+
+            <Button
+                android:id="@+id/button_deep_orange"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/deep_orange"
+                android:text="@string/deep_orange" />
+
+            <Button
+                android:id="@+id/button_brown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/theme_button_margin"
+                android:background="@color/brown"
+                android:text="@string/brown" />
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_home_footer" />
+</LinearLayout>
