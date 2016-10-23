@@ -1,0 +1,110 @@
+<resources>
+
+    <!-- Theme 1 - Blue Default App Theme -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/blue</item>
+        <item name="colorPrimaryDark">@color/dark_blue</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/blue</item>
+    </style>
+
+    <!-- Theme 2 - Red  -->
+    <style name="RedTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/dark_red</item>
+        <!-- The accent color for other styles is pink which doesn't match with red-->
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorButtonNormal">@color/red</item>
+    </style>
+
+    <!-- Theme 3 - Pink  -->
+    <style name="PinkTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/pink</item>
+        <item name="colorPrimaryDark">@color/dark_pink</item>
+        <!-- The accent color for other styles is pink which doesn't match with pink-->
+        <item name="colorAccent">@color/blue</item>
+        <item name="colorButtonNormal">@color/pink</item>
+    </style>
+
+    <!-- Theme 4 - Purple -->
+    <style name="PurpleTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorPrimaryDark">@color/dark_purple</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/purple</item>
+    </style>
+
+    <!-- Theme 5 - Indigo -->
+    <style name="IndigoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/indigo</item>
+        <item name="colorPrimaryDark">@color/dark_indigo</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/indigo</item>
+    </style>
+
+    <!-- Theme 6 - Cyan  -->
+    <style name="CyanTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/cyan</item>
+        <item name="colorPrimaryDark">@color/dark_cyan</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/cyan</item>
+    </style>
+
+    <!-- Theme 7 - Teal -->
+    <style name="TealTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/teal</item>
+        <item name="colorPrimaryDark">@color/dark_teal</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/teal</item>
+    </style>
+
+    <!-- Theme 8 - Green -->
+    <style name="GreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryDark">@color/dark_green</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/green</item>
+    </style>
+
+    <!-- Theme 9 - Light Green -->
+    <style name="LightGreenTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/light_green</item>
+        <item name="colorPrimaryDark">@color/dark_deep_green</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/light_green</item>
+    </style>
+
+    <!-- Theme 10 - Orange -->
+    <style name="OrangeTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/orange</item>
+        <item name="colorPrimaryDark">@color/dark_orange</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/orange</item>
+    </style>
+
+    <!-- Theme 11 - Deep Orange-->
+    <style name="DeepOrange" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/deep_orange</item>
+        <item name="colorPrimaryDark">@color/dark_deep_orange</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/deep_orange</item>
+    </style>
+
+    <!-- Theme 12 - Brown -->
+    <style name="BrownTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/brown</item>
+        <item name="colorPrimaryDark">@color/dark_brown</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="colorButtonNormal">@color/brown</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

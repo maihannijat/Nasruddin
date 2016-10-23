@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme Colors. The AccentColor remains pink for all themes-->
+    <color name="color_accent">#FF4081</color>
+
+    <color name="red">#F44336</color>
+    <color name="pink">#EC407A</color>
+    <color name="purple">#673AB7</color>
+    <color name="indigo">#3F51B5</color>
+    <color name="blue">#03A9F4</color>
+    <color name="cyan">#00BCD4</color>
+    <color name="teal">#009688</color>
+    <color name="green">#4CAF50</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="orange">#FF9800</color>
+    <color name="deep_orange">#FF5722</color>
+    <color name="brown">#795548</color>
+
+    <!--Theme Dark Colors for StatusBar-->
+    <color name="dark_red">#D32F2F</color>
+    <color name="dark_pink">#C2185B</color>
+    <color name="dark_purple">#512DA8</color>
+    <color name="dark_indigo">#1976D2</color>
+    <color name="dark_blue">#0288D1</color>
+    <color name="dark_cyan">#0097A7</color>
+    <color name="dark_teal">#00796B</color>
+    <color name="dark_green">#388E3C</color>
+    <color name="dark_deep_green">#689F38</color>
+    <color name="dark_orange">#F57C00</color>
+    <color name="dark_deep_orange">#E64A19</color>
+    <color name="dark_brown">#5D4037</color>
+
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="item_text_color">#666768</color>
+</resources>

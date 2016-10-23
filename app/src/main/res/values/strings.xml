@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Nasruddin</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="pashto_jokes">Pashto Jokes</string>
+    <string name="farsi_jokes">Farsi Jokes</string>
+    <string name="english_jokes">English Jokes</string>
+    <string name="favorite">Favorite</string>
+    <string name="themes">Themes</string>
+    <string name="about_us">About Us</string>
+    <string name="share">Share</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="more_apps">More Apps</string>
+
+    <!-- Database resources -->
+    <string name="db_name">database.sqlite</string>
+    <string name="table_name">jokes_table</string>
+    <string name="col_id">id</string>
+    <string name="col_title">title</string>
+    <string name="col_joke">joke</string>
+    <string name="col_cat">cat</string>
+    <string name="col_fav">fav</string>
+
+    <string name="pashto_cat">pa</string>
+    <string name="farsi_cat">fa</string>
+    <string name="english_cat">en</string>
+
+    <!-- Color Names -->
+    <string name="red">Red</string>
+    <string name="pink">Pink</string>
+    <string name="purple">Purple</string>
+    <string name="indigo">Indigo</string>
+    <string name="blue">Blue</string>
+    <string name="cyan">Cyan</string>
+    <string name="teal">Teal</string>
+    <string name="green">Green</string>
+    <string name="light_green">Light Green</string>
+    <string name="orange">Orange</string>
+    <string name="deep_orange">Deep Orange</string>
+    <string name="brown">Brown</string>
+
+    <string name="about_us_text">
+        Mullah Nasruddin Android application has the complete collection of Mullah Nasruddin jokes in Pashto, Farsi and English language. The Pashto and Farsi jokes are in native script and aligned from right to left. The application also has favorite feature to add joke(s) to favorite list and access it instantly when looking for it again. Our team also made it easy for users to easily share jokes through text messaging or sharing on Social Network. The application comes with large number of styles (themes) to select for entire application.
+        \n\nWe are committed to having frequent upgrades from now on to the application. We highly value our users\' input in this regard. Should you have any suggestions or material that can add to the value to the application, please contact us via email or phone:
+        \n\nVisit our website revittechnology.com
+        \nEmail us: info@revittechnology.com
+        \nPh: +1-416-854-1324
+        \n\nNote: The application is open source and available on github.com, search for \"Mullah Nasruddin\" on github.com.
+    </string>
+    <string name="joke_detail">Joke</string>
+
+    <!-- AdMob ad unit IDs -->
+    <string name="banner_home_footer">ca-app-pub-6404264627814552/3071686028</string>
+    <string name="interstitial_full_screen">ca-app-pub-6404264627814552/6025152422</string>
+</resources>
